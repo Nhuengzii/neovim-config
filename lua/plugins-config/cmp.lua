@@ -49,6 +49,7 @@ cmp.setup({
     end, { "i", "s" }),
 
     -- ... Your other mappings ...
+    ['<CR>'] = cmp.mapping.confirm( {select = true })
   },
   -- ... Your other configuration ...
   sources = cmp.config.sources({
