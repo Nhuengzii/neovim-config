@@ -39,6 +39,7 @@ return require('packer').startup(function(use)
   use "norcalli/nvim-colorizer.lua"
   use "andweeb/presence.nvim"
   use "github/copilot.vim"
+  use "akinsho/nvim-bufferline.lua"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

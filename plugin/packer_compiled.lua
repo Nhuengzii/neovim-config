@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/nhuengzii/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
   },
+  ["nvim-bufferline.lua"] = {
+    loaded = true,
+    path = "/home/nhuengzii/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua",
+    url = "https://github.com/akinsho/nvim-bufferline.lua"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/nhuengzii/.local/share/nvim/site/pack/packer/start/nvim-cmp",
