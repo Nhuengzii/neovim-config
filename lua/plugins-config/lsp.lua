@@ -4,6 +4,15 @@ local lsp = require('lsp-zero').preset({
   manage_nvim_cmp = false,
 })
 
+lsp.ensure_installed({
+	'lua_ls',
+	'tsserver',
+	'clangd',
+	'pyright',
+	'rust_analyzer',
+	'jsonls'
+})
+
 lsp.setup()
 
 vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
