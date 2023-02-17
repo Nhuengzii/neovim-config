@@ -9,3 +9,5 @@ vim.keymap.set('n', "<C-b>", ":b#<CR>")
 -- Load Plugins
 require("plugins")
 require("plugins-config")
+
+vim.cmd("highlight Pmenu ctermbg=gray guibg=gray")

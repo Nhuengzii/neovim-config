@@ -1,5 +1,5 @@
 require("plugins-config.treesitter")
-require("plugins-config.catppuccin")
+-- require("plugins-config.catppuccin")
 require("plugins-config.telescope")
 require("plugins-config.lualine")
 require("plugins-config.cmp")
