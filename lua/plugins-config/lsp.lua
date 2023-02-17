@@ -23,13 +23,15 @@ vim.diagnostic.config({
   float = true,
 })
 
-vim.opt.completeopt = {'menu', 'menuone', 'noselect'}
 
 local cmp = require('cmp')
 local cmp_config = lsp.defaults.cmp_config({
   window = {
     completion = cmp.config.window.bordered()
+  },
+  preselect = 'none',
+  completion = {
+	  completeopt = 'menu,menuone,noinsert,noselect'
   }
 })
-
 cmp.setup(cmp_config)
