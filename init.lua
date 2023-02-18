@@ -15,6 +15,8 @@ vim.keymap.set('t', '<M-h>', '<C-\\><C-n><C-w>h')
 vim.keymap.set('t', '<M-j>', '<C-\\><C-n><C-w>j')
 vim.keymap.set('t', '<M-k>', '<C-\\><C-n><C-w>k')
 vim.keymap.set('t', '<M-l>', '<C-\\><C-n><C-w>l')
+vim.keymap.set('n', '<M-d>', ':bd!<CR>')
+vim.keymap.set('t', '<M-d>', '<C-\\><C-n>:bd!<CR>')
 vim.g.mapleader = " "
 vim.opt.relativenumber = true
 vim.opt.number = true
