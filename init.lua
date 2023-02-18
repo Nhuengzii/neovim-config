@@ -1,6 +1,12 @@
 -- Keymap Settings
 vim.keymap.set('i', "jk", "<Esc>")
 vim.keymap.set('n', '<leader>w', ':w<CR>')
+vim.keymap.set('n', '<C-e>', ':Explore<CR>')
+vim.keymap.set('n', '<leader>q', ':q<CR>')
+vim.keymap.set('n', '<M-h>', '<C-w>h')
+vim.keymap.set('n', '<M-j>', '<C-w>j')
+vim.keymap.set('n', '<M-k>', '<C-w>k')
+vim.keymap.set('n', '<M-l>', '<C-w>l')
 vim.g.mapleader = " "
 vim.opt.relativenumber = true
 vim.opt.number = true
