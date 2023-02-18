@@ -3,7 +3,6 @@ vim.keymap.set('i', "jk", "<Esc>")
 vim.opt.splitbelow = true
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 vim.keymap.set('n', '<C-e>', ':Explore<CR>')
-vim.keymap.set('n', '<leader>q', ':q<CR>')
 vim.keymap.set('n', '|', ':vsplit<CR>')
 vim.keymap.set('n', '<C-\\>', ':10 split | terminal <CR>i')
 vim.keymap.set('n', '<M-h>', '<C-w>h')
