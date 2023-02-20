@@ -22,6 +22,10 @@ vim.opt.number = true
 vim.opt.termguicolors = true
 vim.opt.pumheight = 10
 vim.keymap.set('n', "<C-b>", ":b#<CR>")
+vim.o.smartindent = true
+vim.o.indentexpr = ""
+vim.o.expandtab = true
+vim.o.shiftwidth = 4
 
 -- Load Plugins
 require("plugins")
