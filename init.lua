@@ -21,7 +21,6 @@ vim.opt.relativenumber = true
 vim.opt.number = true
 vim.opt.termguicolors = true
 vim.opt.pumheight = 10
-vim.opt.laststatus = 3
 vim.keymap.set('n', "<C-b>", ":b#<CR>")
 vim.o.smartindent = true
 vim.o.indentexpr = ""
@@ -33,3 +32,4 @@ require("plugins")
 require("plugins-config")
 
 vim.cmd("highlight Pmenu ctermbg=none guibg=none")
+vim.opt.laststatus = 3
