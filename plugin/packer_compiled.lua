@@ -194,6 +194,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/nhuengzii/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tiler.vim"] = {
+    loaded = true,
+    path = "/home/nhuengzii/.local/share/nvim/site/pack/packer/start/tiler.vim",
+    url = "https://github.com/zhamlin/tiler.vim"
   }
 }
 
